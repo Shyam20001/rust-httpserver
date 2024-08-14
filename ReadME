@@ -1,0 +1,10 @@
+This is a simple RUST-HTTP-server for serving Static page contents. 
+developed by SHYAM. M
+
+// TO get Started
+1. cargo run
+2. cargo build --release 
+3. cargo run --release
+
+// For more optimized build run 
+set RUSTFLAGS=-C opt-level-3 -C lto cargo build --release
