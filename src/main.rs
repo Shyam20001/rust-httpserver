@@ -18,7 +18,7 @@ fn main() -> std::io::Result<()> {
 
         // Fetch the content of index.html from a GitHub repository
         let github_url =
-            "https://raw.githubusercontent.com/chromecruzer/self-learn/main/index.html";
+            "https://raw.githubusercontent.com/Shyam20001/rust-httpserver/main/index.html";
         let content = reqwest::blocking::get(github_url)
             .expect("Failed to fetch index.html")
             .text()
