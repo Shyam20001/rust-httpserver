@@ -1,0 +1,15 @@
+{
+  "name": "bun-server",
+  "module": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "BUN_CONFIG_VERBOSE_FETCH=true bun --hot --inspect app.js",
+    "start": "bun --smol app.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
